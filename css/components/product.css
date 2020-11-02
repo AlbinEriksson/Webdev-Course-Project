@@ -1,0 +1,105 @@
+.smallImage{
+    -ms-flex: 20%;
+    flex: 1;
+    cursor: pointer;
+}
+
+.product-add-to-cart{
+    background-color: limegreen;
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    border: 0px transparent;
+    border-radius: 1rem;
+    min-width: 15rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.star-list {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-star {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    cursor: pointer;
+}
+
+#review-stars {
+    flex-shrink: 0;
+}
+
+#review-stars button {
+    width: 100%;
+}
+
+#review-textarea {
+    flex-grow: 1;
+    height: 6rem;
+    resize: none;
+}
+
+.review-rating-row > * {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.user-review {
+    margin-bottom: 1rem;
+}
+
+.review-author {
+    font-size: 9pt;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.product-review-row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#price-and-quantity {
+    flex-grow: 1;
+}
+
+#purchase-quantity {
+    display: inline;
+    width: 4rem;
+}
+
+.sale {
+    background-color: rgb(151, 27, 27);
+    border-radius: 0.25rem;
+    color: white;
+    padding: 0 0.1rem;
+}
+
+.new {
+    background-color: rgb(27, 151, 27);
+    border-radius: 0.25rem;
+    color: white;
+    padding: 0 0.1rem;
+
+}
+
+.image-row .square-image-frame {
+    width: 4rem;
+    padding-bottom: 4rem;
+    background-color: rgb(158, 212, 212);
+    border: 0.25rem solid transparent;
+    border-radius: 0.25rem;
+    margin: 0 0.1rem !important;
+}
+
+.image-row .square-image-frame:hover {
+    background-color: rgb(123, 187, 187);
+}

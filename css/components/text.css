@@ -1,0 +1,56 @@
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: grey;
+}
+
+.label {
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0 0.25rem;
+}
+
+.label.bg-cyan {
+    background-color: rgba(27, 133, 151, 0.75);
+}
+
+.label.bg-red {
+    background-color: rgba(151, 27, 27, 0.75);
+}
+
+del {
+    color: rgb(151, 27, 27);
+}
+
+.no-select {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-tiny {
+    font-size: 0.667rem;
+}

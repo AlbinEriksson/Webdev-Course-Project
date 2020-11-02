@@ -1,0 +1,29 @@
+.admin-tab {
+    display: none;
+}
+
+.selected {
+    background-color: rgba(0, 120, 150, 0.1);
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+    overflow: auto;
+}
+
+td, th {
+    padding: 0.5rem;
+}
+
+th {
+    background-color: rgb(176, 217, 231);
+}
+
+tr {
+    background-color: rgb(198, 236, 236);
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgb(180, 226, 226);
+}

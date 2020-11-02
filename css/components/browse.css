@@ -1,0 +1,61 @@
+/*#region Shop Sidebar*/
+
+.filters {
+    padding-left: 1.25rem !important;
+    margin: 0;
+}
+
+#manufacturers {
+    padding-left: 0.25rem !important;
+}
+
+.categories {
+    padding-left: 1.25em;
+}
+
+.category-item .categories {
+    display: none;
+}
+
+.category-label.open + .categories {
+    display: block;
+}
+
+.category-label:hover {
+    text-decoration: underline;
+}
+
+.folder-icon {
+    display: inline-block;
+    position: absolute !important; 
+    width: 1rem !important;
+    padding-bottom: 1rem !important;
+    transform: translate(-100%);
+    background-image: url('/images/icons/angle-right.svg');
+}
+
+.category-label.open .folder-icon {
+    background-image: url('/images/icons/angle-down.svg');
+}
+
+.category-label.open {
+    font-weight: bold;
+}
+
+/*#endregion Shop Sidebar*/
+
+/*#region Shop Grid*/
+
+#shop-grid.empty {
+    display: block;
+    text-align: center;
+}
+
+#browse-page {
+    width: 2rem;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+}
+
+/*#endregion Shop Grid*/

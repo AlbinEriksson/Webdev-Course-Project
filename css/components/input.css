@@ -1,0 +1,109 @@
+input[type="text"],
+input[type="password"],
+input[type="submit" i],
+input[type="number"],
+input[list],
+select,
+.btn,
+textarea {
+    height: 2rem;
+    border: none;
+    background: none;
+    font-family: Nunito;
+    font-size: inherit;
+    outline: none;
+    background-color: rgb(198, 236, 236);
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    margin: 0;
+    display: block;
+    transition: background-color, border-radius;
+}
+
+a.btn {
+    display: inline-block;
+    line-height: 2rem;
+}
+
+textarea {
+    padding-top: 0.4rem;
+}
+
+select {
+    display: inline-block;
+}
+
+input[type="file"] {
+    font-family: Nunito;
+}
+
+input:focus,
+select:focus,
+button.btn:focus,
+textarea:focus,
+#search-form.focus {
+    background-color: rgb(176, 217, 231);
+    border-radius: 0;
+    transition-duration: 0.25s;
+}
+
+button[disabled] {
+    cursor: default;
+}
+
+.small-btn {
+    height: 1rem !important;
+    font-size: 0.83rem !important;
+}
+
+.red-btn {
+    background-color: rgb(236, 198, 198) !important;
+}
+
+.red-btn:focus {
+    background-color: rgb(231, 176, 176) !important;
+}
+
+.input-suggest {
+    position: relative;
+}
+
+.input-suggestions {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: rgb(198, 236, 236);
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    z-index: 500;
+}
+
+.input-suggestions li {
+    padding: 0.5rem;
+}
+
+.input-suggestions li:hover {
+    background-color: rgb(177, 221, 221);
+}
+
+.suggestion-active {
+    background-color: rgb(177, 221, 221);
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: darkred;
+}
+
+.result-text {
+    width: 100%;
+}
+
+.label-above {
+    margin-top: 10px;
+    display: block;
+}

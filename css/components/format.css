@@ -1,0 +1,52 @@
+.fill-parent {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.anchor-bottom {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+}
+
+.align-right {
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.max-content {
+    width: max-content;
+    height: max-content;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.float-right {
+    float: right;
+}
+
+.max-height {
+    height: 100%;
+}
+
+.spaced {
+    margin: 0.5rem !important;
+}
+
+.spaced > * {
+    margin-bottom: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

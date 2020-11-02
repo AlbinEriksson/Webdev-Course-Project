@@ -1,0 +1,64 @@
+/*#region Icons*/
+.fa-user {
+    content: url("/images/icons/user.svg");
+    height: 1rem;
+}
+
+.fa-envelope {
+    content: url("/images/icons/envelope.svg");
+    height: 1rem;
+}
+
+.fa-address-card {
+    content: url("/images/icons/address-card.svg");
+    height: 1rem;
+}
+
+.fa-institution {
+    content: url("/images/icons/university.svg");
+    height: 1rem;
+}
+
+.fa-cc-visa {
+    content: url("/images/icons/cc-visa.svg");
+    height: 2rem;
+}
+
+.fa-cc-amex {
+    content: url("/images/icons/cc-amex.svg");
+    height: 2rem;
+}
+
+.fa-cc-mastercard {
+    content: url("/images/icons/cc-mastercard.svg");
+    height: 2rem;
+}
+
+.fa-cc-discover {
+    content: url("/images/icons/cc-discover.svg");
+    height: 2rem;
+}
+
+.fa-shopping-cart {
+    content: url("/images/icons/cart.svg");
+    height: 1rem;
+}
+
+.fa-star-full {
+    content: url("/images/icons/star-full.svg");
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.fa-star-half {
+    content: url("/images/icons/star-half.svg");
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.fa-star-empty {
+    content: url("/images/icons/star-empty.svg");
+    width: 0.9rem;
+    height: 0.9rem;
+}
+/*#endregion Icons*/
